@@ -4,5 +4,16 @@
     <string name="collector">me as a collector</string>
     <string name="track_my_application">track my application</string>
     <string name="ipsum">lorem ipsum is used</string>
-    <string name="first_text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.</string>
+    <string name="first_text">Lorem ipsum dolor sit amet,
+        consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+        Ut enim ad minim veniam, quis nostrud exercitation ullamco.</string>
+    <string name="about">About Us.</string>
+    <string name="team">Team.</string>
+    <string name="reach">Reach us.</string>
+    <string name="affiliattions.">Affiliattions.</string>
+    <string name="disclaimers"> Disclaimers.</string>
+    <string name="privacy">Privacy Policy.</string>
+    <string name="content"> Content Copyright reserved.</string>
 </resources>
+
+
