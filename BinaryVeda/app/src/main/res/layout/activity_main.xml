@@ -1,96 +1,117 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<androidx.core.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:orientation="vertical"
     android:layout_height="match_parent"
-    tools:context=".MainActivity">
-    <androidx.core.widget.NestedScrollView
-        android:layout_width="match_parent"
-        android:layout_height="match_parent">
+    tools:context=".activities.FirstActivity">
+
     <LinearLayout
-    android:layout_width="match_parent"
-    android:orientation="vertical"
-    android:layout_height="wrap_content">
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
         <ImageView
             android:layout_width="wrap_content"
-            android:layout_marginTop="31pt"
-            android:layout_marginStart="21pt"
-            android:src="@drawable/ic_art_gallery_center_"
-            android:layout_height="wrap_content"/>
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/twenty"
+            android:layout_marginTop="@dimen/_30sdp"
+            android:src="@drawable/ic_art_gallery_center_" />
+
         <ImageView
             android:layout_width="wrap_content"
-            android:layout_marginTop="7pt"
-            android:scaleType="centerCrop"
+            android:layout_height="@dimen/_220sdp"
+            android:layout_marginTop="@dimen/seven"
             android:adjustViewBounds="true"
-            android:src="@drawable/ic_group_301_copy"
-            android:layout_height="@dimen/_200sdp"/>
+            android:scaleType="centerCrop"
+            android:src="@drawable/ic_first_group_301_copy" />
 
         <TextView
             android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/_25sdp"
+            android:layout_marginLeft="@dimen/_20sdp"
             android:text="@string/lorem"
-            android:textSize="8pt"
-            android:padding="@dimen/_15sdp"
-            android:layout_height="wrap_content"/>
+            android:textSize="@dimen/eighteen" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/_22sdp"
+            android:gravity="center"
+            android:layout_marginRight="@dimen/_16sdp"
+            android:layout_marginBottom="@dimen/_25sdp"
+            android:text="@string/elit"
+            android:textSize="@dimen/twentys" />
+
         <LinearLayout
             android:layout_width="match_parent"
-            android:orientation="horizontal"
-            android:layout_height="wrap_content">
-<Button
-    android:id="@+id/btnRegister"
-    android:layout_width="wrap_content"
-    android:background="@drawable/button"
-    android:text="Register"
-    android:textColor="#FFF"
-    android:drawablePadding="@dimen/_15sdp"
-    android:paddingEnd="@dimen/_15sdp"
-    android:paddingStart="@dimen/_15sdp"
-    android:padding="@dimen/_15sdp"
-    android:layout_marginStart="@dimen/_20sdp"
-    android:drawableStart="@drawable/ic_group_3_copy"
-    android:layout_height="wrap_content"/>
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <Button
+                android:id="@+id/btnRegister"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/_20sdp"
+                android:background="@drawable/button_bg"
+                android:drawableStart="@drawable/ic_group_3_copy"
+                android:textAllCaps="false"
+                android:gravity="center"
+                android:padding="@dimen/_5sdp"
+                android:drawablePadding="@dimen/_10sdp"
+                android:fontFamily="sans-serif-light"
+                android:textSize="@dimen/twentyEight"
+                android:text="register"
+                android:textColor="#FFFFFF" />
+
             <TextView
                 android:id="@+id/tvCollector"
                 android:layout_width="match_parent"
-                android:text="@string/collector"
+                android:layout_height="wrap_content"
                 android:padding="@dimen/_5sdp"
-                android:textSize="22sp"
-                android:textColor="#5B5959"
-                android:layout_height="wrap_content"/>
+                android:fontFamily="sans-serif-medium"
+                android:text="@string/collector"
+                android:textColor="@color/light_gray"
+                android:textSize="@dimen/twentyTwo" />
 
 
         </LinearLayout>
+
         <LinearLayout
             android:layout_width="match_parent"
-            android:orientation="horizontal"
-            android:layout_height="wrap_content">
-            <ImageView
-            android:layout_width="wrap_content"
-            android:layout_marginStart="@dimen/_50sdp"
-                android:padding="@dimen/_5sdp"
-            android:src="@drawable/ic_group_3_copy_3"
-            android:layout_height="wrap_content"/>
-        <TextView
-            android:layout_width="match_parent"
-            android:padding="@dimen/_5sdp"
-            android:textSize="20sp"
-            android:textStyle="bold"
-            android:textColor="#9CBFD8"
-            android:text="@string/track_my_application"
-            android:layout_height="wrap_content"/>
-        </LinearLayout>
-        <androidx.recyclerview.widget.RecyclerView
-            android:layout_width="match_parent"
-            android:id="@+id/recyclerView"
-            android:layout_height="match_parent"/>
-        <include
             android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/_50sdp"
+                android:padding="@dimen/_5sdp"
+                android:layout_marginTop="@dimen/_35sdp"
+                android:src="@drawable/ic_group_3_copy_3" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="@dimen/_5sdp"
+                android:layout_marginTop="@dimen/_30sdp"
+                android:text="@string/track_my_application"
+                android:textColor="@color/light_blue"
+                android:textSize="@dimen/twentyTwo"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/recyclerView"
             android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
+        <include
             layout="@layout/second_item_layout"
-            android:layout_marginBottom="@dimen/_50sdp"/>
-</LinearLayout>
+            android:layout_width="match_parent"
+            android:layout_marginTop="@dimen/_70sdp"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/_50sdp" />
+    </LinearLayout>
 
-    </androidx.core.widget.NestedScrollView>
 
-</LinearLayout>
+</androidx.core.widget.NestedScrollView>

@@ -2,13 +2,14 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:orientation="vertical"
+    android:layout_marginLeft="@dimen/_22sdp"
+    android:layout_marginRight="@dimen/_22sdp"
     android:layout_height="wrap_content">
 <ImageView
     android:id="@+id/mFirstImage"
     android:layout_width="wrap_content"
-    android:src="@drawable/ic_group"
-    android:layout_marginStart="@dimen/_40sdp"
-    android:layout_marginTop="@dimen/_40sdp"
+    android:src="@drawable/ic_first_group"
+    android:layout_marginTop="@dimen/_50sdp"
     android:layout_height="wrap_content"/>
 
     <TextView
@@ -17,7 +18,6 @@
         android:text="@string/ipsum"
         android:textStyle="bold"
         android:layout_marginTop="@dimen/_29sdp"
-        android:layout_marginStart="@dimen/_40sdp"
         android:textSize="@dimen/_22sdp"
         android:layout_height="wrap_content"/>
 
@@ -26,7 +26,6 @@
         android:layout_width="match_parent"
         android:text="@string/first_text"
         android:layout_marginTop="@dimen/_29sdp"
-        android:layout_marginStart="@dimen/_40sdp"
         android:textSize="@dimen/_14sdp"
         android:layout_height="wrap_content"/>
 

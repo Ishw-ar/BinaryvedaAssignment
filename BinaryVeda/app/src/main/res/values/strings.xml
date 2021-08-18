@@ -1,6 +1,7 @@
 <resources>
     <string name="app_name">BinaryVeda</string>
-    <string name="lorem">Lorem ipsum dolor sit amet, consectetur adipiscing elit</string>
+    <string name="lorem">Lorem ipsum dolor sit amet, consectetur </string>
+    <string name="elit">adipiscing elit</string>
     <string name="collector">me as a collector</string>
     <string name="track_my_application">track my application</string>
     <string name="ipsum">lorem ipsum is used</string>

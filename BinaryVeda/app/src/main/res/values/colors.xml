@@ -13,5 +13,7 @@
     <color name="deepPink">#D90034</color>
     <color name="caramel">#FF4518</color>
     <color name="yellow">#FFC200</color>
+    <color name="lightBlue">#9CBFD8</color>
+    <color name="light_gray">#5B5959</color>
     <color name="light_blue">#9CBFD8</color>
 </resources>
