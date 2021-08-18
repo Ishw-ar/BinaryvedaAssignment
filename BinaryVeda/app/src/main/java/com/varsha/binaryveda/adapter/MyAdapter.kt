@@ -5,7 +5,7 @@ import android.view.View
 import android.view.ViewGroup
 import androidx.recyclerview.widget.RecyclerView
 
-import com.varsha.binaryveda.Model
+import com.varsha.binaryveda.model.Model
 import com.varsha.binaryveda.R
 import kotlinx.android.synthetic.main.firstscreen_item_layout.view.*
 

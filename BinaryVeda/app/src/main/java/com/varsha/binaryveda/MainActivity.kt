@@ -1,10 +1,12 @@
 package com.varsha.binaryveda
 
+import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import androidx.recyclerview.widget.LinearLayoutManager
-import androidx.recyclerview.widget.RecyclerView
 import com.varsha.binaryveda.adapter.MyAdapter
+import com.varsha.binaryveda.adapter.SecondScreenAdapter
+import com.varsha.binaryveda.model.Model
 import kotlinx.android.synthetic.main.activity_main.*
 
 class MainActivity : AppCompatActivity() {
@@ -44,7 +46,10 @@ class MainActivity : AppCompatActivity() {
         recyclerView.adapter= MyAdapter(modelObjects)
         recyclerView.layoutManager=LinearLayoutManager(this)
         recyclerView.isNestedScrollingEnabled=false
-
+        btnRegister.setOnClickListener {
+            val intent=Intent(this,SecondActivity::class.java)
+            startActivity(intent)
+        }
 
 
 
