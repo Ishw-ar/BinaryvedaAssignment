@@ -104,7 +104,7 @@
                 android:id="@+id/mEditView"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginStart="52dp"
+                android:layout_marginStart="42dp"
                 android:layout_marginTop="@dimen/_62sdp"
                 android:layout_toEndOf="@+id/person"
                 android:layout_weight="1"
@@ -113,7 +113,7 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:text="Edit"
-                android:layout_marginStart="51dp"
+                android:layout_marginStart="41dp"
                 android:textStyle="bold"
                 android:layout_below="@+id/mEditView"
                 android:layout_toEndOf="@+id/person"
@@ -126,16 +126,37 @@
         <LinearLayout
             android:layout_width="match_parent"
             android:orientation="horizontal"
+            android:weightSum="2"
             android:layout_height="wrap_content">
 
             <TextView
                 android:layout_width="wrap_content"
                 android:text="My dashboard"
                 android:textStyle="bold"
+                android:layout_weight="1"
+                android:fontFamily="sans-serif-condensed-light"
                 android:padding="@dimen/_12sdp"
                 android:layout_marginStart="@dimen/_16sdp"
                 android:layout_height="wrap_content"/>
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_weight="1"
+                android:gravity="end"
+                android:layout_marginBottom="5dp"
+                android:layout_height="wrap_content">
 
+                <TextView
+                    android:layout_width="46dp"
+                    android:background="@drawable/radio_bg"
+                    android:layout_marginTop="8dp"
+                    android:layout_height="17dp"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:elevation="12dp"
+                    android:background="@drawable/circe_dot_bg"
+                    android:layout_marginStart="19dp"
+                    android:layout_height="wrap_content"/>
+            </RelativeLayout>
 
         </LinearLayout>
 
@@ -174,6 +195,7 @@
                     android:layout_height="wrap_content"
                     android:textColor="@color/black"
                     android:text="2.3K"
+                    android:fontFamily="sans-serif-condensed-light"
                     android:textSize="22sp"
                     />
 
@@ -198,10 +220,10 @@
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:textStyle="bold"
+                    android:fontFamily="sans-serif-condensed-light"
                     android:textColor="@color/black"
                     android:text="50"
-                    android:textSize="15sp"
+                    android:textSize="22sp"
                     />
 
                 <TextView
@@ -226,10 +248,10 @@
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:textStyle="bold"
                     android:textColor="@color/black"
                     android:text="21"
-                    android:textSize="15sp"
+                    android:fontFamily="sans-serif-condensed-light"
+                    android:textSize="22sp"
                     />
 
                 <TextView
@@ -269,6 +291,7 @@
         <TextView
             android:layout_width="wrap_content"
             android:text="120"
+            android:fontFamily="sans-serif-condensed-light"
             android:padding="@dimen/_3sdp"
             android:textSize="@dimen/_12sdp"
             android:layout_height="wrap_content"/>
@@ -276,11 +299,13 @@
             android:layout_width="wrap_content"
             android:src="@drawable/arrow"
             android:padding="@dimen/_5sdp"
+
             android:layout_weight="1"
             android:layout_height="wrap_content"/>
         <TextView
             android:layout_width="wrap_content"
             android:text="43K"
+            android:fontFamily="sans-serif-condensed-light"
             android:padding="@dimen/_3sdp"
             android:textSize="@dimen/_12sdp"
             android:layout_height="wrap_content"/>
@@ -293,6 +318,7 @@
         <TextView
             android:layout_width="wrap_content"
             android:text="2.0K"
+            android:fontFamily="sans-serif-condensed-light"
             android:padding="@dimen/_3sdp"
             android:textSize="@dimen/_12sdp"
             android:layout_height="wrap_content"/>
@@ -379,44 +405,53 @@
     <LinearLayout
         android:layout_width="match_parent"
         android:orientation="horizontal"
-        android:layout_marginStart="@dimen/_18sdp"
-        android:layout_marginEnd="@dimen/_18sdp"
+        android:layout_marginStart="@dimen/_10sdp"
+        android:layout_marginEnd="@dimen/_10sdp"
         android:weightSum="3"
         android:layout_height="wrap_content">
         <TextView
             android:layout_width="wrap_content"
             android:text="Uploads"
             android:textColor="@color/black"
-            android:padding="@dimen/_2sdp"
+           android:gravity="center"
+            android:layout_weight="1"
             android:textStyle="bold"
-            android:layout_marginStart="@dimen/_20sdp"
+
             android:layout_height="wrap_content"/>
 
         <TextView
             android:layout_width="wrap_content"
             android:text="Exhibitions"
+            android:gravity="center"
+            android:layout_weight="1"
             android:textColor="@color/black"
-            android:layout_marginLeft="@dimen/_5sdp"
-            android:layout_marginStart="@dimen/_36sdp"
+            android:fontFamily="sans-serif-condensed-light"
+
             android:layout_height="wrap_content"/>
         <TextView
             android:layout_width="wrap_content"
             android:text="Revenue"
+            android:gravity="center"
+            android:layout_weight="1"
             android:textColor="@color/black"
-            android:layout_marginLeft="@dimen/_5sdp"
-            android:layout_marginStart="@dimen/_26sdp"
+            android:fontFamily="sans-serif-condensed-light"
+
             android:layout_height="wrap_content"/>
 
     </LinearLayout>
     <View
         android:layout_width="@dimen/_55sdp"
         android:background="@color/yellow"
-        android:layout_marginStart="@dimen/_35sdp"
+        android:layout_marginTop="@dimen/_5sdp"
+        android:layout_marginStart="@dimen/_30sdp"
         android:layout_height="@dimen/_2sdp"/>
     <androidx.recyclerview.widget.RecyclerView
         android:layout_width="match_parent"
         android:layout_marginTop="@dimen/_28sdp"
+        android:layout_marginRight="@dimen/_14sdp"
+        android:layout_marginLeft="@dimen/_7sdp"
         android:id="@+id/recyclerView2"
+        android:layout_marginBottom="@dimen/_20sdp"
         android:layout_height="match_parent"/>
 
 </LinearLayout>
