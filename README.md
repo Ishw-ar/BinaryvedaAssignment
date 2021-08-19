@@ -14,10 +14,8 @@ In this project I have used the following tech stack.
 ## Libraries Used 🌟
 
 1. Dimens: [Dimen](https://github.com/intuit/sdp)
-2. Icons: [Icons](https://www.flaticon.com/)
 
-3. Glide: [Glide](https://github.com/bumptech/glide)
-4. Retrofit: [Retrofit](https://developer.android.com/guide/topics/ui/declaring-layout)
+
 
 
 <br>
