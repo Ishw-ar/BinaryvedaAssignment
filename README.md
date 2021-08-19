@@ -36,19 +36,19 @@ You can also take the glimpse of our Project, just follow the below steps:
 ## Snapshots 📷
 
   <p float="left">
-  <img src="https://user-images.githubusercontent.com/75352515/130009388-99d8b14e-b760-4d3a-af01-3c8eba6ba1a5.jpg" width="250" /> 
+  <img src="https://user-images.githubusercontent.com/75352515/130012424-32e3872c-071c-4c30-b204-1301441adb7d.jpg" width="250" /> 
 
  
-  <img src="https://user-images.githubusercontent.com/75352515/130009507-94e7fee3-3d3c-4e58-8cb6-dcf05ecf2d0f.jpg" width="250" />
-     <img src="https://user-images.githubusercontent.com/75352515/130008389-6fab859c-25b6-4d0d-9054-027042d89e22.jpg" width="250" />
+  <img src="https://user-images.githubusercontent.com/75352515/130012498-ab4da2e2-d6c9-441c-95ce-879627f78ef4.jpg" width="250" />
+     <img src="https://user-images.githubusercontent.com/75352515/130012555-7a303b1c-9add-4a29-8851-8e882b3e1474.jpg" width="250" />
 
  
 </p>
  <p float="left">
   
-  <img src="https://user-images.githubusercontent.com/75352515/130009198-b11b4e06-041b-49ed-a93d-ae1351c91b55.jpg" width="250" />
+  <img src="https://user-images.githubusercontent.com/75352515/130012631-5475d658-71f2-4124-904b-e9dc029f25f2.jpg" width="250" />
 
-   <img src="https://user-images.githubusercontent.com/75352515/130009071-4f3f6a10-7823-4fe8-be74-3d5a3081c36a.jpg" width="250" /> 
+   <img src="https://user-images.githubusercontent.com/75352515/130012710-1f50353c-394e-4a0b-9336-95098e2e4a29.jpg" width="250" /> 
  
 </p>
  
